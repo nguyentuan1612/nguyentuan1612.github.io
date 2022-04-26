@@ -1,0 +1,123 @@
+*{
+    margin: auto 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.anh1{
+    width: 100%;
+    height: 900px;
+    border: black solid 1px;
+    background-image: url("anh/a1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    
+}
+.anh1>.nutAn{
+    width: 200px;
+    height: 50px;
+    border: black solid 1px;
+    background-color: oldlace;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 45%;
+    font-family: 'tahoma' !important;
+    box-shadow: 0 0 10px silver;
+
+    
+    
+}
+.anh1>.nutAn:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px silver;
+}
+
+.anh1>.nutAn>a{
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        color: black;
+}
+
+.anh1>.nutAn>a:hover{
+    
+}
+
+.anh2{
+    width: 100%;
+    height: 900px;
+    display: inline-block;
+}
+.anhConn2{
+    /* width: 35%;
+    height: 900px;
+    background-image: url("anh/a2.jpg");
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 0px; */
+    display: inline-block;
+}
+.anhConn3{
+    /* width: 32%;
+    height: 900px;
+    background-image: url("anh/a3.jpg");
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 0px; */
+    display: inline-block;
+}
+.anhConn4{
+    width: 100%;
+    height: 900px;
+    border: black solid 1px;
+    background-image: url("anh/anhhhhh1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+}
+.anh3{
+    width: 100%;
+    height: 1000px;
+}
+
+.anh3>.a9{
+    /* width: 50%;
+    height: 1000px;
+    background-image: url('anh/a9.jpg');
+
+    background-size: 100% 100%;
+    display: inline-block; */
+}
+
+.anh3>.a10{
+    width: 49.7%;
+    height: 1000px;
+    background-image: url('anh/a10.jpg');
+
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    background-color:black;
+    color: #A5A7B5;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display : inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+margin: 20px 0;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: #A5A7B5;
+    margin: 3px 0;
+}

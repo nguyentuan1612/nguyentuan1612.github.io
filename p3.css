@@ -1,0 +1,206 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ 
+header{
+    width: 100%;
+   height: 300px;
+     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; 
+     background: url("anh/miken.png") no-repeat center; 
+    background-color: white;
+    
+
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #EBEBEB;
+    
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    
+
+}
+nav>ul>li{
+    /* text-align: center; */
+    line-height: 50px;
+
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+
+font-size: 20px;
+    color: #24A19C;
+    text-shadow: 0 0 5px silver;
+}
+
+nav>ul>li>a:hover{
+  
+    color: gold;
+
+
+}
+nav>img{
+    margin: 0px;
+}
+.caHai{
+    height: 1050px;
+    width: 100%;
+    border: blue 1px solid;
+}
+
+.heading{
+    font-size: 20px;
+    color: #24A19C;
+    text-align: center;
+   margin  : 40px 0px;
+   font-variant: small-caps;
+   position: relative;
+}
+.heading::after{
+ content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #24A19C;
+    top: 40px;
+    left: 46.5%;
+}
+
+footer{
+    margin-top: 30px;
+
+    width: 100%;
+    background-color:black;
+    color: #A5A7B5;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display : inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+margin: 20px 0;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: #A5A7B5;
+    margin: 3px 0;
+}
+
+.anh1{
+    width: 100%;
+    background-color: #EBEBEB;
+    height: 40px;
+    text-align: center;
+    /* position: fixed; */
+
+}
+.anh1>p{
+    color: #24A19C;
+    line-height: 40px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
+
+.p1{
+    font-size: 17px;
+    line-height: 40px;
+    margin-left: 15px;
+    font-family: 'tahoma' !important;
+}
+.alo{
+    width: 50%;
+    float: left;
+    height: 1050px;
+    background-image: url("anh/sotu.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 1050px;
+    background-color: white;
+    
+}
+
+aside>.alo2{
+    width: 50%;
+    float: right;
+    height: 1200px;
+    background-color: white;
+
+}
+
+aside>p{
+    line-height: 50px;
+    font-family: 'tahoma' !important;
+    margin-left: 50px;
+}
+.KhoiGiua{
+height: 100px;
+background-color: black;
+
+}
+.khoigiua1{
+    height: 100px;
+    width: 200px;
+border: solid 1px silver;
+background-color: black;
+/* line-height: 100px; */
+text-align: center;
+display: inline-block;
+/* margin-left: 230px; */
+margin-left: 10px;
+color: silver;
+
+}
+.khoigiua1>i{
+    font-size: 30px;
+    color: springgreen;
+}
+.cart {
+    /* display: block; */
+    width: 25px;
+    /* position: fixed; */
+    position: absolute;
+
+    top: 8px;
+    /* z-index: 26; */
+    right: 15px;
+}
+
+.cart img {
+    width: 100%;
+}
+/* aside{
+    height: 1500px;
+    background-color: blue;
+    width: 50%;
+    float: right;
+}
+
+article{
+    height: 1500px;
+
+    background-color: gold;
+    width: 50%;
+    float: left;
+} */
+iframe{
+    width: 10px;
+}

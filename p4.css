@@ -1,0 +1,865 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+ 
+header{
+    width: 100%;
+   height: 300px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%; 
+    background: url("anh/miken.png") no-repeat center; 
+   background-color: white;
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #EBEBEB;
+    
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    
+
+}
+nav>ul>li{
+    /* text-align: center; */
+    line-height: 50px;
+
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+
+font-size: 20px;
+    color: #24A19C;
+    text-shadow: 0 0 5px silver;
+}
+
+nav>ul>li>a:hover{
+  
+    color: gold;
+
+
+}
+nav>img{
+    margin: 0px;
+}
+
+
+.anh>img{
+    width: 500px;
+    height: 500px;
+}
+.khoi1{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sw1.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi1>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi1:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sw11.jpg") no-repeat center;
+    background-size:100% 100%;
+
+}
+.khoi1>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi1>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+
+.khoi11{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/d3.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi11>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi11:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/d33.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi11>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi11>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi12{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/q11.jpeg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi12>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi12:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/q1.jpeg") no-repeat center;
+    background-size:100% 100%;
+    
+
+}
+.khoi12>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi12>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi13{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/q2.png") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi13>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi13:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/q22.jpeg") no-repeat center;
+    background-size:100% 100%;
+
+
+
+}
+.khoi13>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi13>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi14{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/q3.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi14>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi14:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/q44.png") no-repeat center;
+    background-size:100% 100%;
+
+}
+.khoi14>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi14>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi15{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/quan4.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi15>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi15:hover{
+    box-shadow: 0 0 15px silver;
+    /* background: url("anh/anh2.jpg") no-repeat center; */
+    background-size:300px 300px;
+
+}
+.khoi15>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi15>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+.khoi16{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/d4.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi16>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi16:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/d44.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi16>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi16>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi2{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sw2.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi2>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi2:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sw22.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi2>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi2>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+.khoi3{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/we3.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi3>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi3:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sw33.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi3>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi3>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi4{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sw4.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi4>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi4:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sw44.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi4>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi4>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi5{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sh1.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi5>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi5:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sh11.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi5>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi5>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi6{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sh2.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi6>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi6:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sh22.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi6>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi6>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi7{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sh3.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi7>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi7:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sh33.jpg") no-repeat center;
+    background-size:100% 100%;
+
+}
+.khoi7>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi7>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi8{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/sh4.png") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi8>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi8:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/sh44.jpg") no-repeat center;
+    background-size:100% 100%;
+
+
+}
+.khoi8>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi8>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi9{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/d1.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi9>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi9:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/d11.png") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi9>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi9>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.khoi10{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: silver solid 1px;
+    /* float: left; */
+    margin: 10px;
+    border-radius: 10px;
+    background: url("anh/d2.jpg") no-repeat center;
+    background-size:300px 300px;
+    position: relative;
+    display: inline-block;
+
+}
+.khoi10>img{
+    width: 200px;
+    height: 200px;
+    
+}
+.khoi10:hover{
+    box-shadow: 0 0 15px silver;
+    background: url("anh/d22.jpg") no-repeat center;
+    background-size:300px 300px;
+
+}
+.khoi10>p{
+    text-align: center;
+    margin-top: 9px;
+    font-family: fantasy;
+}
+.khoi10>h5{
+
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 20px;
+    color: red;
+}
+
+.heading{
+    font-size: 20px;
+    color: #24A19C;
+    text-align: center;
+   margin  : 40px 0px;
+   font-variant: small-caps;
+   position: relative;
+}
+.heading::after{
+ content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #24A19C;
+    top: 40px;
+    left: 46.5%;
+}
+.banner{
+    width: 100%;
+  
+    margin-top: 20px;
+
+}
+.banner>img{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color:black;
+    color: #A5A7B5;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display : inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+margin: 20px 0;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: #A5A7B5;
+    margin: 3px 0;
+}
+
+.anh1{
+    width: 100%;
+    background-color: #EBEBEB;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+
+}
+.anh1>p{
+    color: #24A19C;
+    line-height: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+
+
+.p1{
+    font-size: 17px;
+    line-height: 40px;
+    margin-left: 15px;
+    font-family: 'tahoma' !important;
+}
+.alo{
+    width: 50%;
+    float: left;
+    height: 1200px;
+    background-image: url("anh/sotu.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 900px;
+    background-color: white;
+    
+}
+
+.alo2{
+    width: 50%;
+    float: right;
+    height: 1200px;
+    background-color: white;
+
+}
+
+.alo2>p{
+    line-height: 50px;
+    font-family: 'tahoma' !important;
+    margin-left: 50px;
+}
+.banner{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.banner>img{
+    width: 80%;
+    height: 900px;
+    border-radius: 10px;
+   
+}
+.cart {
+    /* display: block; */
+    width: 25px;
+    /* position: fixed; */
+    position: absolute;
+
+    top: 8px;
+    /* z-index: 26; */
+    right: 15px;
+}
+
+.cart img {
+    width: 100%;
+}
+body.page .only-mobi {
+    display: none;
+}
+
+.adu>a>i{
+    position: relative;
+}
+.adu>.menuCon{
+   
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+    right: -28px;
+}
+.adu>.menuCon>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom:1px dotted black ;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 20px;
+    background: url("anh/33.svg") no-repeat left center;
+    color: black;
+}
+.adu>.menuCon>li>a:hover{
+    background: url("anh/55.svg") no-repeat left center;
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+.adu{
+    height: 30px;
+    width: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.adu>a>i{
+    font-size: 40px;
+    /* color: silver; */
+}
